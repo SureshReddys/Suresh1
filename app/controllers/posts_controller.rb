@@ -23,6 +23,7 @@ class PostsController < ApplicationController
 
   def new_one
     #code indentation should be done properly
+    @posts = Posts.all
   end
 
   # POST /posts
