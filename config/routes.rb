@@ -3,11 +3,10 @@ FirstApp::Application.routes.draw do
 
   resources :posts do
     collection do
-    get :new_one
+      get :new_one
     end
   end
-  
-  #get 'posts/new_one' => "posts#new_one"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

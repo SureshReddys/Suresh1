@@ -23,7 +23,11 @@ class PostsController < ApplicationController
 
   def new_one
     #code indentation should be done properly
+
     @array=[1,2,3,4]
+
+    @posts = Posts.all
+
   end
 
   # POST /posts
