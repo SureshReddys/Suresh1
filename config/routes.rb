@@ -1,5 +1,6 @@
 FirstApp::Application.routes.draw do
   resources :articles
+  resources :pictures
 
   resources :users
 
