@@ -26,7 +26,7 @@ class PostsController < ApplicationController
 
     @array=[1,2,3,4]
 
-    @posts = Posts.all
+    @posts = Posts.all # thi is a test.
 
   end
 
