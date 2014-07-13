@@ -20,8 +20,11 @@ class PostsController < ApplicationController
   # GET /posts/1/edit
   def edit
   end
-def new_one
-end
+
+  def new_one
+    #code indentation should be done properly
+  end
+
   # POST /posts
   # POST /posts.json
   def create
